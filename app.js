@@ -22,7 +22,7 @@ mongoose.connect(DATABASE, {
 .catch(err => console.log(err));
 
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://ostad-ibrahim-portfolio-assignment.vercel.app',
     credentials: true
 }));
 
